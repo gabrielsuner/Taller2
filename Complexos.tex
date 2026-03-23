@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[ catalan ]{babel}
+
+\begin{document}
+
+\section*{Demostració que \(z_1^n + z_2^n\) és real}
+
+Siguin $z_1, z_2 \in \mathbb{C}$ les arrels del polinomi
+$x^2 + ax + b$
+amb $a, b \in \mathbb{R}$. Com que els coeficients són reals, hem vist a classe que si un nombre complex és arrel també ho serà el seu conjugat. Per tant, sense pèrdua de generalitat (es faria de manera anàloga amb $z_1 = \overline{z_2}$)
+\begin{equation*}
+z_2 = \overline{z_1}.
+\end{equation*}
+Per a qualsevol $n\in \mathbb{Z^+}$ considerem la suma
+\begin{equation*}
+z_1^n + z_2^n = z_1^n + \overline{z_1}^n.
+\end{equation*}
+
+Com que $\overline{z_1}^n = \overline{z_1^n}$
+
+
+Llavors,
+\begin{equation*}
+z_1^n + z_2^n = z_1^n + \overline{z_1^n}.
+\end{equation*}
+
+Però per a qualsevol nombre complex $(w)$, es té que $(w + \overline{w} = 2,\operatorname{Re}(w) \in \mathbb{R})$. En particular, prenent $(w = z_1^n)$, obtenim
+\begin{equation*}
+z_1^n + z_2^n = 2\,\operatorname{Re}(z_1^n) \in \mathbb{R}.
+\end{equation*}
+
+\subsection*{Cas concret}
+Per al polinomi $(x^2 - 2x + 2)$, les arrels són
+\begin{equation*}
+z_1 = 1 + i, \qquad z_2 = 1 - i = \overline{z_1}.
+\end{equation*}
+que ho hem resolt mitjançant la formula 
+
+\begin{equation*}
+x = \frac{2 \pm \sqrt{4^2 -4*1*2}}{2}
+\end{equation*}
+com tenim una arrel negativa, hem de utilitzar complexos
+\newline
+
+\begin{equation*}
+x = \frac{2 + 2i}{2} = 1 + i
+\end{equation*}
+\newline
+\begin{equation*}
+x = \frac{2 - 2i}{2} = 1 - i
+\end{equation*}
+\newline
+que és real per a tot n en els enters, com es comprova directamen, farem la distinció parell de senar (per veure el valor de l'expressió en funció de n):
+\subsection*{Parell}
+
+n = 2k \(k \in \mathbb{Z}^+\)
+aleshores tenim $(a_1 + ib_1)^n = $
+
+\subsection*{Senar}
+
+n = 2k + 1 \(k \in \mathbb{Z}^+\)
+en aquest cas, la part real es multiplica per 2 mentre que la part imaginaria s'anula
+
+
+
+\end{document}
