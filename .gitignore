@@ -1,11 +1,33 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 *.aux
+*.bbl
+*.blg
 *.log
 *.out
 *.synctex.gz
+*.toc
 =======
 *.synctex.gz
 *.aux
 *.swp
 *.log
 >>>>>>> inequacions
+=======
+>>>>>>> origin/comandes
+*.aux
+*.log
+*.out
+*.synctex.gz
+<<<<<<< HEAD
+=======
+*.synctex.gz
+*.aux
+*.swp
+*.log
+>>>>>>> inequacions
+=======
+>>>>>>> origin/complexos
+>>>>>>> origin/comandes
