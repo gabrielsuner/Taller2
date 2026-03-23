@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.aux
 *.bbl
 *.blg
@@ -5,3 +6,9 @@
 *.out
 *.synctex.gz
 *.toc
+=======
+*.synctex.gz
+*.aux
+*.swp
+*.log
+>>>>>>> inequacions
